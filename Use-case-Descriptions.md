@@ -3,7 +3,7 @@
 |---     |---        |
 | Actor: | User |
 | Description | The User wants access to the application. |
-| Pre-condition | The User needs to be __Registered__. |
+| Pre-condition | The User needs to be <u>Registered</u>. |
 | Scenario: |  1. System asks for username and password.  <br>2. User types in his username and password and presses the login button. <br>3. The system checks whether the login data is correct and gives the user access to the application. |
 | Result: | The user is logged into the application. |
 | Extensions: | 2.1 The user forgot his password and presses the button "Forgot password". <br> 2.2 The system asks for his e-mail. <br> 2.3 The user types in his e-mail. <br> 2.4 System sends his password to the typed in e-mail. <br> Continue with step 2.|
@@ -36,7 +36,7 @@
 |---     |---        |
 | Actor: | User |
 | Description | The User don't want to join the challenge he got invited to |
-| Pre-condition | The challenge has to be __shared__ to the user.|
+| Pre-condition | The challenge has to be <u>shared</u> to the user.|
 | Scenario: |  1. The system shows all the details about the challenge and a button that says "decline."<br> 2. The user presses on "decline". <br> 3.The system informs the invitor that the invited declined the challenge.|
 | Result: | The User declinded the challenge and the invitor is informed. |
 | Extensions: | none |
