@@ -26,8 +26,20 @@
 | Actor: | User |
 | Description | The User want to be part of a challenge and joins it. |
 | Pre-condition | The challenge has to be existing.|
-| Scenario: |  1. The System shows a list of challenges. <br> 2. The user presses on a challenge he wants to join. <br> 3. The system shows all the details about the challenge and a button that say "Join challenge!." <br> 4. The User presses on "Join challenge!". <br> 5. System adds the user to the challenge.|
+| Scenario: |  1. The System shows a list of challenges. <br> 2. The user presses on a challenge he wants to join. <br> 3. The system shows all the details about the challenge and a button that says "Join!." <br> 4. The User presses on "Join!". <br> 5. System adds the user to the challenge.|
 | Result: | The User jointed the challenge and is now part of it. |
 | Extensions: | 1. The user recieves an invitation for a private challenge and presses on it. <br> Continue with step 3.|
 | Exceptions: | none |
 ----------------------------------------------
+
+| Name:| Decline the challenge |
+|---     |---        |
+| Actor: | User |
+| Description | The User don't want to join the challenge he got invited to |
+| Pre-condition | The challenge has to be __shared__ to the user.|
+| Scenario: |  1. The system shows all the details about the challenge and a button that says "decline."<br> 2. The user presses on "decline". <br> 3.The system informs the invitor that the invited declined the challenge.|
+| Result: | The User declinded the challenge and the invitor is informed. |
+| Extensions: | none |
+| Exceptions: | none |
+----------------------------------------------
+
