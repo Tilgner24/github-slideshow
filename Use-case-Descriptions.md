@@ -43,3 +43,25 @@
 | Exceptions: | none |
 ----------------------------------------------
 
+| Name:| Choose moderators |
+|---     |---        |
+| Actor: | User |
+| Description | The user selects one or more users within a challenge and gives them moderator rights. |
+| Pre-condition | The challenge needs participants. The User needs to be the owner of the challenge |
+| Scenario: |  1. The System shows a list of all participants. <br> 2. The user selects one or more user. <br> The System asks to give them the rights of a moderator via a button that says "Give moderator rights" <br> 3. The user presses on "give moderator rights" <br> 4. System gives the selected users moderator rights. <|
+| Result: | The selected user have moderators rights now. |
+| Extensions: | none |
+| Exceptions: | none |
+----------------------------------------------
+
+| Name:| Edit moderators |
+|---     |---        |
+| Actor: | User |
+| Description | The user selects one or more users with moderator rights within a challenge and takes the moderator rights away. |
+| Pre-condition | The owner had to __Choose moderators__. |
+| Scenario: |  1. The System shows a list of all participants. <br> 2. The user selects one user with moderator rights. <br> The System asks to take the rights of a moderator away via a button that says "Remove moderator rights" <br> 3. The user presses on "Remove moderator rights" <br> 4. System takes away moderator rights for the selected users. <|
+| Result: | The selected user lose their moderators rights |
+| Extensions: | none |
+| Exceptions: | none |
+----------------------------------------------
+
