@@ -9,3 +9,14 @@
 | Extensions: | 2.1 The user forgot his password and presses the button "Forgot password". <br> 2.2 The system asks for his e-mail. <br> 2.3 The user types in his e-mail. <br> 2.4 System sends his password to the typed in e-mail. <br> Continue with step 2.|
 | Exceptions: | 3.1 User typed in a wrong username or password.  <br>3.2 System shows a message "wrong username or password please try again".<br> Continue with step 2.|
 ----------------------------------------------
+
+| Name:| Look up challenge |
+|---     |---        |
+| Actor: | User |
+| Description | The User wants to search for a specific challenge. |
+| Pre-condition | There has to be existings challenges in the database.|
+| Scenario: |  1. System shows a searchbar. <br> 2. User types in the name of the challenge. <br>3. The system shows all the challenges that are named like search term.|
+| Result: | The user is logged into the application. |
+| Extensions: | 2.1 The user forgot his password and presses the button "Forgot password". <br> 2.2 The system asks for his e-mail. <br> 2.3 The user types in his e-mail. <br> 2.4 System sends his password to the typed in e-mail. <br> Continue with step 2.|
+| Exceptions: | 3.1 User typed in a wrong username or password.  <br>3.2 System shows a message "wrong username or password please try again".<br> Continue with step 2.|
+----------------------------------------------
